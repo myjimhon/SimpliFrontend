@@ -123,15 +123,12 @@ from Simplilearn Get Certified Get Ahead to All Participants:
   <!-- Breadcrumbs -->
   <nav class="breadcrumb">
     <a class="breadcrumb-item" href="#">
-
       <button type="button" class="btn btn-link">Home</button>
-
-
     </a>
     <a class="breadcrumb-item" href="#"> <button type="button" class="btn btn-link">Library</button></a>
     <a class="breadcrumb-item" href="#"><button type="button" class="btn btn-link">Books</button></a>
     <a class="breadcrumb-item" href="#"><button type="button" class="btn btn-link">Sports</button></a>
-    <span class="breadcrumb-item active"><button type="button" class="btn btn-link">Basketball</button></span>
+    <span class="breadcrumb-item active"><button type="button" class="btn btn-link text-muted" disabled>Basketball</button></span>
   </nav>
   
   <nav class="breadcrumb">
@@ -156,8 +153,8 @@ from Simplilearn Get Certified Get Ahead to All Participants:
     <a class="breadcrumb-item" href="#"> <button type="button" class="btn btn-warning">
       Sports <span class="badge badge-light">9</span>
     </button></a>
-    <span class="breadcrumb-item active"> <button type="button" class="btn btn-info">
-      Basketball <span class="badge badge-light">5</span>
+    <span class="breadcrumb-item active"> <button type="button" class="btn active" disabled>
+      Basketball </span>
     </button></span>
   </nav>
 
@@ -173,6 +170,66 @@ from Simplilearn Get Certified Get Ahead to All Participants:
   Messages <span class="badge badge-light">5</span>
 </button>
 
+<!--Form Design: email address | password | checkbox asking the user to agree with the terms and conditions | submit button-->
+
+<form action="#" class="p-3 w-25">
+  <div class="form-group">
+    <label for="fname">First name:</label>
+    <input
+      type="text"
+      name="fname"
+      id="fname"
+      class="form-control"
+      placeholder="John"
+      required="required"
+      autofocus="autofocus"
+    />
+  </div>
+  <div class="form-group">
+    <label for="lname">Last name:</label>
+    <input
+      type="text"
+      name="lname"
+      id="lname"
+      class="form-control"
+      placeholder="Doe"
+      required="required"
+    />
+  </div>
+  <div class="form-group">
+    <label for="Email">Email:</label>
+    <input
+      type="text"
+      name="Email"
+      id="Email"
+      class="form-control"
+      placeholder="Email address"
+      required="required"
+    />
+  </div>
+  <div class="form-group">
+    <label for="Password">Password:</label>
+    <input
+      type="text"
+      name="Password"
+      id="Password"
+      class="form-control"
+      placeholder="Password"
+      required="required"
+    />
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
+    required="required"
+    >
+    <label class="form-check-label" for="flexCheckDefault">
+      
+      <a href="https://www.google.co.in">Agree to terms and conditions</a>
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
     </div>
 
     <!-- <script src="vendor/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script> -->
@@ -183,3 +240,13 @@ from Simplilearn Get Certified Get Ahead to All Participants:
     ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.j
+
+
+
+
+
+
+
+
+
+
