@@ -37,10 +37,10 @@ for (let element of array) {
 
 // Task Assignment
 function arrayDemo() {
-const arrays = [3,6,2,7,1];
+const unSorted_Array = [3,6,2,7,1];
 
-arrays.sort();
-for (let array of arrays){
+unSorted_Array.sort();
+for (let array of unSorted_Array){
 console.log(array);
 }
 }
